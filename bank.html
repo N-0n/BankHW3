@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+    
+        <title>Bank it</title>
+        
+    </head>
+
+    <body>
+        <div id="container">
+                <h2>Banking <i>Safe</i></h2>
+
+            <div id="b-app">
+                <form >Enter Amount : <input type="number" id="amount"  >
+                
+                </form>
+            <button id="c-btn" onclick="credit()">Credit</button>
+             <button id="d-btn" onclick="debit()">Debit</button>
+
+        <br><br>
+
+        <div class="balance-section">
+            <div>Account Balance: Rs<span id="balance" >0.00</span>
+        </div>
+
+        <div class="transaction-history">
+            <h4>-Transaction History-</h4>
+            <p id="transaction-list"></p>
+        </div>
+
+        <script src="script.js"></script>
+        </div>
+    </body>
+</html>

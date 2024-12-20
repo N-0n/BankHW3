@@ -1,0 +1,13 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(87, 87, 87);
+}
+
+#container {
+    width: 300px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: #6c6d72;
+    border: 4px dashed rgb(53, 53, 53);
+}
